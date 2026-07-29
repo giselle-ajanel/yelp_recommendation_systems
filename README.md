@@ -1,4 +1,4 @@
-# Yelp Recommendation Systems & Similarity Search with PySpark
+# Yelp Recommendation Systems
 
 Scalable recommendation systems built on the Yelp dataset using Apache Spark and Python, covering locality sensitive hashing for similarity search, item-based collaborative filtering, model-based prediction with XGBoost, and a competition-entry hybrid system.
 
@@ -6,7 +6,7 @@ Scalable recommendation systems built on the Yelp dataset using Apache Spark and
 
 ## Overview
 
-This repo explores four approaches to the same problem: given a user and a business, predict the star rating the user would give. Each method makes different assumptions about what drives ratings and handles the core challenges of recommendation — data sparsity, cold start, and scalability — differently.
+This repo explores four approaches to the same problem: given a user and a business, predict the star rating the user would give. Each method makes different assumptions about what drives ratings and handles the core challenges of recommendation: data sparsity, cold start, and scalability in a different manner.
 
 All systems are trained on `yelp_train.csv` and evaluated on test datasets. Datasets are not included due to size and licensing; they are available via the Yelp Open Dataset.
 
